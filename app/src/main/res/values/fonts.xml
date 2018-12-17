@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_product_sans_bold">fonts/Google-Sans-Font/GoogleSans-Bold.ttf</string>
+    <string name="font_product_sans_bold_italic">fonts/Google-Sans-Font/GoogleSans-BoldItalic.ttf</string>
+    <string name="font_product_sans_italic">fonts/Google-Sans-Font/GoogleSans-Italic.ttf</string>
+    <string name="font_product_sans_regular">fonts/Google-Sans-Font/GoogleSans-Regular.ttf</string>
+</resources>

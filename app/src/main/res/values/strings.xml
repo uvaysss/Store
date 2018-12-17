@@ -1,0 +1,35 @@
+<resources>
+    <string name="bottom_navigation_behavior" translatable="false">com.uvaysss.store.ui.common.BottomNavigationBehavior</string>
+
+    <!-- COMMON -->
+    <string name="app_name">Store</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_buy">Купить</string>
+    <string name="action_save">Сохранить</string>
+    <string name="error_field_cannot_be_empty">Данное поле не может быть пустым.</string>
+
+    <!-- MAIN -->
+    <string name="main_navigation_store_front">Store-Front</string>
+    <string name="main_navigation_back_end">Back-End</string>
+
+    <!-- STORE FRONT -->
+    <string name="store_front_title">Store-Front</string>
+    <string name="store_front_purchase_failure">Не удалось приобрести товар.</string>
+
+    <!-- BACK END -->
+    <string name="back_end_title">Back-End</string>
+    <string name="back_end_product_not_added_error">Товар не доступен для редактирования.\nОн еще в процессе добавления.</string>
+
+    <!-- PRODUCT -->
+    <string name="product_title">Наименование</string>
+    <string name="product_price">Цена</string>
+    <string name="product_count">Количество</string>
+    <string name="product_buy">Купить</string>
+
+    <!-- PRODUCT ADD EDIT-->
+    <string name="product_add_title">Добавление товара</string>
+
+    <!-- PRODUCT EDIT -->
+    <string name="product_edit_title">Редактирование товара</string>
+
+</resources>
