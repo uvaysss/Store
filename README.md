@@ -1,25 +1,25 @@
-# Store
-Необходимо создать легковесное приложение для e-commerce решения. Приложение должно состоять из двух частей располагающихся на разных экранах:
+#Store
+It is necessary to create a lightweight application for an e-commerce solution. The application should consist of two parts located on different screens:
 
 
-• store-front — клиент, где осуществляются просмотр и покупка товаров
+• store-front — the client where goods are viewed and purchased
 
-• back-end — административная часть, позволяющая добавлять новыетовары или редактировать существующие
-
-
-Информация о товаре должна содержать наименование, стоимость и количество (единиц в наличии). Тестовые данные находятся в файле data.csv внутри архива с данным заданием. Код должен запускаться в Xcode/Android Studio.
+• back-end — administrative part that allows you to add new products or edit existing ones
 
 
-Store-front предоставляет возможности просмотра полной информации об одной товарной позиции и перехода к следующей или предыдущей позиции. Товар отображается только в том случае если его количество больше нуля. Переход от одного товара к другому происходит с анимированным сдвигом экрана влево/вправо при горизонтальном «перелистывании».
+Information about the product must contain the name, cost and quantity (units in stock). The test data is in the data.csv file inside the archive with this task. The code should run in Xcode/Android Studio.
 
 
-Back-end предоставляет возможности просмотра, редактирования и добавления продуктов.
-В любой момент пользователь может переходить от одного экрана к другому.
+Store-front provides the ability to view full information about one item and navigate to the next or previous item. The product is displayed only if its quantity is greater than zero. The transition from one product to another occurs with an animated screen shift to the left / right during horizontal “turning”.
 
 
-Реализуйте возможности сохранения и загрузки данных о товарах любым удобным способом. Но необходимо предусмотреть возможность безболезненной замены хранилища (паттерн Adapter или Visitor). Например, для перехода к использованию XML, JSON или других (в том числе и бинарных) форматов данных.
+The back-end provides the ability to view, edit, and add products.
+At any time, the user can move from one screen to another.
 
 
-Покупка и сохранение данных после редактирования занимают длительное время: 3 и 5 секунд соответственно. И чтобы не блокировать приложение эти операции необходимо выполнять в отдельных потоках. При этом пользователь может продолжать редактировать или покупать товары, не дожидаясь завершения предыдущих операций. После завершения каждой операции, изменения должны отражаться на экране store-front.
-Операция покупки завершается уменьшением количества продукта на 1. Товар должен пропасть с экрана store-front когда его количество достигнет 0.
-Необходимо гарантировать, что у пользователя не будет возможности купить продукт с количеством менее 1, а изменения вносимые на экране back-end не будут потеряны.
+Implement the ability to save and load product data in any convenient way. But it is necessary to provide for the possibility of a painless storage replacement (Adapter or Visitor pattern). For example, to switch to using XML, JSON or other (including binary) data formats.
+
+
+Buying and saving data after editing takes a long time: 3 and 5 seconds, respectively. And in order not to block the application, these operations must be performed in separate threads. In this case, the user can continue to edit or buy products without waiting for the completion of previous operations. After each operation is completed, the changes should be reflected on the store-front screen.
+The purchase operation ends with a decrease in the quantity of the product by 1. The product should disappear from the store-front screen when its quantity reaches 0.
+It is necessary to ensure that the user will not be able to buy a product with a quantity of less than 1, and changes made on the back-end screen will not be lost. 
