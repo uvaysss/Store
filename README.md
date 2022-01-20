@@ -1,4 +1,5 @@
-#Store
+# Store
+
 It is necessary to create a lightweight application for an e-commerce solution. The application should consist of two parts located on different screens:
 
 
